@@ -13,8 +13,7 @@ function fracao() {
     num2.value = " ";
   }
   function clearTela() {
-    pincel.fillStyle = "white";
-    pincel.fillRect(0, 0, 600, 400);
+    pincel.clearRect(0, 0, 600, 400);
   }
   function escreve(texto, x, y) {
     pincel.font = "20px Arial";
